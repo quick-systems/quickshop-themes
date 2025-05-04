@@ -1,0 +1,25 @@
+/* auto-generated via quickshop Themes Store @ Copyright © 2024-2025 xKotelek https://kotelek.dev */
+/* Generated at 21:36, 04.05.2025 (GPT Time) (ZMIEN NA CZAS GENEROWANIA I STREFE CZASOWA) */ 
+
+/* quickshop theme @ metadata */
+:quickshop-theme-metadata {
+    --qs-theme-name: "Example Theme";
+    --qs-theme-author: "xKotelek";
+    ---qs-theme-email: "contact@kotelek.dev";
+}
+
+:root {
+    /* quickshop theme @ header */
+    --qs-header-bg: #4462ff; /* "bg": "#4462ff" */
+    --qs-header-btn: #611aa8; /* "button": "#611aa8" */
+    --qs-header-btn-hover: #0062ff; /* "button.hover": "#0062ff" */
+
+    /* quickshop theme @ root */
+    --qs-root-bg: #7762ff; /* "bg": "#7762ff" */
+    --qs-root-section: #270f3b; /* "section": "#270f3b" */
+
+    /* quickshop theme @ product */
+    --qs-product-bg: #270f3b; /* "bg": "#270f3b" */
+    --qs-product-btn-primary: #611aa8; /* "btn.primary": "#611aa8" */
+    --qs-product-btn-hover: #4462ff; /* "btn.secondary": "#4462ff" */
+}
