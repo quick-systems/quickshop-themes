@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/quick-systems/quickshop-themes/main/themes/__template__.json",
+  
+  "name": "Example Theme",
+  "author": "xKotelek",
+  "email": "contact@kotelek.dev",
+  
+  "colors": {
+    "header": {
+      "bg": "#4462ff",
+      "button": "#611aa8",
+      "button:hover": "#0062ff"
+    },
+    "root": {
+      "bg": "#7762ff",
+      "section": "#270f3b"
+    },
+    "product": {
+      "bg": "#270f3b",
+      "btn:primary": "#611aa8",
+      "btn:secondary": "#4462ff"
+    }
+  }
+}
