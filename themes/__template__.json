@@ -3,13 +3,13 @@
   
   "name": "Example Theme",
   "author": "xKotelek",
-  "email": "conteact@kotelek.dev",
+  "email": "contact@kotelek.dev",
   
   "colors": {
     "header": {
       "bg": "#4462ff",
       "button": "#611aa8",
-      "button.hover": "#0062ff",
+      "button.hover": "#0062ff"
     },
     "root": {
       "bg": "#7762ff",
@@ -20,5 +20,5 @@
       "btn.primary": "#611aa8",
       "btn.secondary": "#4462ff"
     }
-  },
+  }
 }
