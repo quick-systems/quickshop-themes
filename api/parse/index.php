@@ -6,11 +6,11 @@ function convertJsonToCss($url) {
     if ($jsonContent === false) {
         return "Error: Unable to fetch the JSON file from the provided URL.";
     }
-
+    
     $themeData = json_decode($jsonContent, true);
     
-    if (!isset($themeData['$schema']) || $themeData['$schema'] !== "https://raw.githubusercontent.com/quick-systems/quickshop-themes/main/themes/__template__.json") {
-        return "Error: Invalid or missing schema in the JSON data.";
+    if ($themeData === null) {
+        return "Error: Unable to decode the JSON data.";
     }
 
     $name = isset($themeData['name']) ? $themeData['name'] : 'Unknown Theme';
@@ -30,8 +30,10 @@ function convertJsonToCss($url) {
     if (isset($themeData['colors'])) {
         $colors = $themeData['colors'];
         foreach ($colors as $category => $colorValues) {
-            foreach ($colorValues as $key => $value) {
-                $css .= "    --qs-" . strtolower($category) . "-" . strtolower(str_replace('.', '-', $key)) . ": $value; /* \"$key\": \"$value\" */\n";
+            if (is_array($colorValues)) {
+                foreach ($colorValues as $key => $value) {
+                    $css .= "    --qs-" . strtolower($category) . "-" . strtolower(str_replace('.', '-', $key)) . ": $value;\n";
+                }
             }
         }
     }
@@ -41,8 +43,10 @@ function convertJsonToCss($url) {
     return $css;
 }
 
+// URL of the JSON file (can be passed via GET or POST request)
 $url = isset($_GET['url']) ? $_GET['url'] : 'https://raw.githubusercontent.com/quick-systems/quickshop-themes/refs/heads/main/themes/__template__.json';
 
+// Convert the JSON to CSS and output it with the appropriate header
 header("Content-Type: text/css");
 echo convertJsonToCss($url);
 
