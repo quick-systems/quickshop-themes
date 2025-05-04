@@ -25,7 +25,7 @@ Please join our [Discord server](https://discord.gg/5Czkubc2rY) for announcement
 
 - [Fork](https://github.com/quick-systems/quickshop-themes/fork) this repository.
 - Add a new file called `your-custom-theme.theme.json` in the `themes` folder.
-- Copy the [template's values](https://github.com/quick-systems/quickshop-themes/blob/main/themes/__template__.json)
+- Copy the [template's values](https://github.com/quick-systems/quickshop-themes/blob/main/themes/template.theme.json)
 - Edit the information
 - Your pull request will be reviewed ad merged. *Make sure to keep an eye on it in case we need to make any changes!*
 - After the pull request is merged, please allow up to 48 hours for us to upload the theme into the themes store
