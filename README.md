@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <img alt="Domains" src="https://img.shields.io/github/directory-file-count/quick-systems/quickshop-themes/themes?color=5c46eb&label=themes&style=for-the-badge">
-  <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/quick-systems/quickshop-themes?color=5c46eb&label=issues&style=for-the-badge">
-  <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/quick-systems/quickshop-themes?color=5c46eb&label=pull%20requests&style=for-the-badge">
+  <img alt="Domains" src="https://img.shields.io/github/directory-file-count/quick-systems/quickshop-themes/themes?color=270f3b&label=themes&style=for-the-badge">
+  <img alt="Open Pull Requests" src="https://img.shields.io/github/issues-raw/quick-systems/quickshop-themes?color=270f3b&label=issues&style=for-the-badge">
+  <img alt="Open Issues" src="https://img.shields.io/github/issues-pr-raw/quick-systems/quickshop-themes?color=270f3b&label=pull%20requests&style=for-the-badge">
   <br>
 </p>
 
