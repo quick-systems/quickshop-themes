@@ -1,6 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/quick-systems/quickshop-themes/main/themes/__template__.json",
-  
   "name": "Example Theme",
   "author": "xKotelek",
   "email": "contact@kotelek.dev",
